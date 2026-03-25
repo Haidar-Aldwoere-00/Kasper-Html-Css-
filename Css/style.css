@@ -35,6 +35,17 @@ li a {
 /* End Var  */
 
 /* End Global Rulse */
+/* Start Scroller  */
+.scroller {
+  background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  z-index: 99999;
+}
+/* End Scroller  */
 /* Start Components */
 .main-heading {
   text-align: var(--text-center);
